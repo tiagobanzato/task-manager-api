@@ -20,17 +20,16 @@ Maven
 
 🏗️ Arquitetura
 O projeto segue a arquitetura em camadas padrão do mercado:
-Controller → Service → Repository → Database
-src/
-├── controller/
-│   └── TarefaController.java    # Endpoints da API
-├── model/
-│   └── Tarefa.java              # Entidade do banco de dados
-├── repository/
-│   └── TarefaRepository.java   # Acesso ao banco de dados
-└── service/
-    ├── TarefaService.java       # Lógica de negócio
-    └── GeminiService.java       # Integração com IA
+
+O projeto segue a arquitetura em camadas padrão do mercado:
+
+**Controller** recebe as requisições da API
+
+**Service** contém a lógica de negócio e chama a IA
+
+**Repository** acessa o banco de dados
+
+**Model** define a estrutura da tarefa
 🚀 Como Rodar o Projeto
 Pré-requisitos
 
