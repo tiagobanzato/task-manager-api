@@ -1,4 +1,4 @@
-# Tarefas API
+# Task Manager API
 
 Task management REST API with automatic, AI-based priority classification, built with Java and Spring Boot.
 
@@ -53,12 +53,12 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/tiagobanzato/tarefas-api.git
+git clone https://github.com/tiagobanzato/task-manager-api.git
 ```
 
 2. Go to the project folder:
 ```bash
-cd tarefas-api/tarefas-api
+cd task-manager-api/tarefas-api
 ```
 
 3. Add your Gemini API key to `application.properties`:
